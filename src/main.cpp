@@ -254,7 +254,7 @@ const unsigned long MQTT_PUBLISH_INTERVAL = 10000; // Publish sensor data every 
 // Telegram Bot Settings
 String telegram_bot_token = "8599089200:AAEv1m09R8ga3f9HLbi8rAsODZrUO9qagmQ";  // Bot Token from @BotFather
 String telegram_chat_id = "8550467615";    // Chat ID (can get from @userinfobot)
-bool telegram_enabled = false;
+bool telegram_enabled = true;
 
 // Telegram Client
 WiFiClientSecure telegramClient;
