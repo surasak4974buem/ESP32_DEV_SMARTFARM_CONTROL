@@ -78,8 +78,8 @@ uint8_t currentPage = 0; // 0=Main page, 1=XY-MD03 page, 2=Weather page
 const uint8_t MAX_PAGES = 3;
 
 // OpenWeather API Configuration
-const String OPENWEATHER_API_KEY = "5285b3436c86bdab46069027fd961d09";
-String cityName = "Nakhon Si Thammarat"; // Default city (user can change)
+const String OPENWEATHER_API_KEY = "61d5af4847b51d096bdf823d0dfacfc6";
+String cityName = "Chiang Mai"; // Default city (user can change)
 
 // Weather data variables
 float weather_temp = 0.0;
